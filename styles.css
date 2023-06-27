@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+input, button {
+  border:0;
+  margin:0;
+  padding:0;
+  font-size:0;
+  font-weight:normal;
+}
+
+body {
+  background: linear-gradient(135deg, #7B4397, #B5238A, #DC2430);
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 10px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+section {
+  width:100%;
+  height:100vh;
+  min-width:500px;
+  min-height:400px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-box{
+  width: 300px;
+  /* background-color: teal; */
+  
+}
+.form-input{
+  width: 100%;
+  display: inline-block;
+  padding: 20px 10px;
+  margin: 10px 0;
+  font-size: 1.6em;
+  border: 1px solid #666;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+.toggle-pwd{
+    position: absolute;
+    color: black;
+    left: 23cm;
+    bottom: 57%;
+    font-size: 15px;
+    cursor: pointer;
+}
+.generate-btn {
+  background: #ff4533;
+  border-color: red;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.7em;
+  font-weight: bold;
+  cursor: pointer;
+}
+.copy-btn {
+  background: #37f34d;
+  border-color: #69ff6c;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.7em;
+  font-weight: bold;
+  cursor: pointer;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+.creds {
+    text-align: center;
+    font-size: 14px;
+}

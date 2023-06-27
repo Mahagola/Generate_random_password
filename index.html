@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Password</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="images/favicon.png?" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/d9ce4c0ef9.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <section>
+        <div class="form-box">
+          <h2 class="form-heading">Generate Your Password</h2>
+          <form>
+            <div class="input-container">
+                <input class="copyfrom form-input" type="password" placeholder="Your Password comes here" readonly required>
+                <i class="fa-sharp fa-solid fa-eye-slash toggle-pwd" onclick="show_pwd()"></i>
+            </div>
+              <button type="generate" class="form-btn generate-btn form-input" onclick="rand_pwd(); return false;">Generate</button>
+              <button type="copy" class="form-btn copy-btn form-input" onclick="copy_pwd(); return false;">Copy</button>
+          </form>
+        </div>
+      </section>
+    <footer>
+        <p class="creds">Creds : Gola</p>
+    </footer>
+</body>
+</html>
